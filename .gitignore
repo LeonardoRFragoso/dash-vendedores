@@ -1,0 +1,68 @@
+# Ambiente Virtual
+venv/
+.env/
+*.env
+*.venv
+env/
+ENV/
+
+# Arquivos de compilação
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+*.log
+*.out
+*.err
+
+# Configurações do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Testes e coberturas
+.tox/
+.nox/
+.coverage
+*.coverage
+.cache
+pytest_cache/
+htmlcov/
+
+# Ferramentas de build
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Configuração do IDE/editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Arquivos do Jupyter
+.ipynb_checkpoints
+
+# Configurações específicas do Python
+*.pyo
+*.pyd
+*.pdb
+
+# Docker
+*.dockerignore
+
+# Arquivos temporários
+*.tmp
+*.bak
+*.old
+*.orig
+*.rej
+
+# Configuração de segurança
+secrets.json
+config.yaml
+config.ini
+
+.codegpt
